@@ -84,7 +84,6 @@ const Projects = props => {
   };
 
   const handleSort = (property) => {
-    console.log(`handleSort`, property);
     const isAsc = orderBy === property && order === 'asc';
     setOrder(isAsc ? 'desc' : 'asc');
     setOrderBy(property);
