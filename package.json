@@ -5,9 +5,15 @@
   "dependencies": {
     "@material-ui/core": "4.9.5",
     "@material-ui/icons": "4.9.1",
+    "@reduxjs/toolkit": "^1.9.1",
+    "dayjs": "^1.11.7",
+    "lodash": "^4.17.21",
     "react": "16.13.0",
     "react-dom": "16.13.0",
-    "react-scripts": "3.4.0"
+    "react-redux": "^8.0.5",
+    "react-scripts": "3.4.0",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.4.2"
   },
   "scripts": {
     "start": "react-scripts start",
